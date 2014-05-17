@@ -8,6 +8,7 @@
 
 #import "CollectionViewController.h"
 #import "GridLayout.h"
+#import "GridToExplodedTransitionLayout.h"
 #import "ExplodedLayout.h"
 #import "Cell.h"
 
@@ -49,6 +50,11 @@
 
 
 #pragma mark - UICollectionViewDelegate
+
+- (UICollectionViewTransitionLayout *)collectionView:(UICollectionView *)collectionView transitionLayoutForOldLayout:(UICollectionViewLayout *)fromLayout newLayout:(UICollectionViewLayout *)toLayout
+{
+	return [[GridToExplodedTransitionLayout alloc] initWithCurrentLayout:fromLayout nextLayout:toLayout];
+}
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
