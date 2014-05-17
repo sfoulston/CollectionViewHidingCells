@@ -21,6 +21,7 @@
 		17A0FF981927AFCA00903A63 /* GridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A0FF971927AFCA00903A63 /* GridLayout.m */; };
 		17A0FF9B1927AFD900903A63 /* ExplodedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A0FF9A1927AFD900903A63 /* ExplodedLayout.m */; };
 		17A0FFDF1927CFFA00903A63 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A0FFDE1927CFFA00903A63 /* Cell.m */; };
+		17BD56D0192800CC00822298 /* GridToExplodedTransitionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD56CF192800CC00822298 /* GridToExplodedTransitionLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		17A0FF9A1927AFD900903A63 /* ExplodedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplodedLayout.m; sourceTree = "<group>"; };
 		17A0FFDD1927CFFA00903A63 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		17A0FFDE1927CFFA00903A63 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		17BD56CE192800CC00822298 /* GridToExplodedTransitionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridToExplodedTransitionLayout.h; sourceTree = "<group>"; };
+		17BD56CF192800CC00822298 /* GridToExplodedTransitionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridToExplodedTransitionLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				17A0FF941927AF9500903A63 /* CollectionViewController.m */,
 				17A0FF961927AFCA00903A63 /* GridLayout.h */,
 				17A0FF971927AFCA00903A63 /* GridLayout.m */,
+				17BD56CE192800CC00822298 /* GridToExplodedTransitionLayout.h */,
+				17BD56CF192800CC00822298 /* GridToExplodedTransitionLayout.m */,
 				17A0FF991927AFD900903A63 /* ExplodedLayout.h */,
 				17A0FF9A1927AFD900903A63 /* ExplodedLayout.m */,
 				17A0FFDD1927CFFA00903A63 /* Cell.h */,
@@ -234,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17BD56D0192800CC00822298 /* GridToExplodedTransitionLayout.m in Sources */,
 				17A0FF731927AF3B00903A63 /* AppDelegate.m in Sources */,
 				17A0FF6F1927AF3B00903A63 /* main.m in Sources */,
 				17A0FF951927AF9500903A63 /* CollectionViewController.m in Sources */,
